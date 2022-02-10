@@ -1,0 +1,188 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* .body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+  padding: 0em;
+  width: 100%;
+  margin: 0em;
+}
+
+.header .menu {
+  background-color: transparent;
+  position: absolute;
+  z-index: 10;
+  height: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1.4em;
+  margin-left: 0em;
+  margin-right: 0em;
+  width: 100%;
+  border-bottom: 2px solid #fff;
+}
+
+.header .menu .titulo__a {
+  color: #fff;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.header .menu .titulo__a h1 {
+  font-weight: 1000;
+}
+
+.header .menu .titulo__a:hover {
+  color: #bbb8b8;
+}
+
+.header .menu .registra_campana {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 5em;
+}
+
+.header .menu .registra_campana .registra_tu_empresa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5em;
+  border: solid 1px #fff;
+  border-radius: 1em;
+  padding: 0.30em;
+}
+
+.header .menu .registra_campana .registra_tu_empresa .fa-home {
+  margin-right: 0.3em;
+  color: #fff;
+}
+
+.header .menu .registra_campana .registra_tu_empresa .a_tu_empresa {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header .menu .registra_campana .registra_tu_empresa .a_tu_empresa .h3_tu_empresa {
+  font-size: 0.7em;
+}
+
+.header .menu .registra_campana .registra_tu_empresa:hover {
+  background-color: rgba(47, 79, 79, 0.74);
+  color: black;
+}
+
+.header .menu .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0em;
+  padding-right: 0em;
+  margin: 0.2em;
+}
+
+.header .menu .redes .redes_iconos {
+  padding: 0.4em;
+}
+
+.header .menu .redes .redes_iconos .bi {
+  color: #fff;
+}
+
+.header .menu .redes .redes_iconos .bi:hover {
+  color: lightblue;
+}
+
+.header .search-bar {
+  position: absolute;
+  z-index: 1;
+  top: 8em;
+  bottom: 8em;
+  width: 100%;
+  right: 5em;
+  left: 5em;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .header .search-bar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header .search-bar {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header .search-bar {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.main {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.main .carousel-inner .carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.7;
+}
+
+.main .carousel-inner .carousel-caption {
+  bottom: 180px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.main .carousel-inner .carousel-caption .carousel-caption h5 {
+  font-size: 200px;
+}
+
+.footer {
+  background-color: black;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+}
+
+.footer .footer__ul {
+  list-style-type: square;
+}
+
+.footer .footer__ul .footer__a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: white;
+}
+/*# sourceMappingURL=estilos.css.map */

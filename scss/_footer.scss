@@ -1,0 +1,14 @@
+.footer{
+    background-color: black;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+    .footer__ul{
+      list-style-type: square;
+      
+      
+        .footer__a{
+            text-decoration-line: none;
+            color: white;
+        }
+    }
+}
