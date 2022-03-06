@@ -17,13 +17,13 @@
        border-bottom: 2px solid #fff;
       
        .titulo__a{
-           color: #fff;
+           color: rgb(187, 184, 184);
            text-decoration-line: none;
            & h1{
                font-weight: 1000;
            }
            &:hover{
-               color:rgb(187, 184, 184);
+               color:#fff;
                
            }
         }
